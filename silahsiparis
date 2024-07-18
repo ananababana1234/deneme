@@ -1,0 +1,5 @@
+for i, text in ipairs(texts) do
+                -- Draw hover bar if mouse is over this text
+                if hoverIndex == i then
+                    dxDrawRectangle(text.x, text.y - 2, text.w, text.h + 4, colorHover, false) -- Red bar
+                end
